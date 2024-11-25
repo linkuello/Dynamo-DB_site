@@ -42,11 +42,20 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
     overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide {
     display: none;
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.2em;
     padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .slide.active {
@@ -55,13 +64,25 @@ body {
 
 h1 {
     color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 ul {
     margin-top: 20px;
     padding-left: 20px;
+    text-align: left;
 }
 
 ul li {
     margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.conclusion-image {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #0f111a;
+    border-radius: 8px;
 }
