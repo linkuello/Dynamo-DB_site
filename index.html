@@ -1,29 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DynamoDB Presentation</title>
+    <title>Презентация DynamoDB</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>DynamoDB: Future of Databases</h1>
-    </header>
-    <section>
-        <h2>Introduction</h2>
-        <p>DynamoDB is a fast, flexible NoSQL database service for all applications that need high throughput at scale.</p>
-    </section>
-    <section>
-        <h2>Features</h2>
-        <ul>
-            <li>Fully Managed</li>
-            <li>Scalable</li>
-            <li>Low Latency</li>
-        </ul>
-    </section>
-    <footer>
-        <p>Powered by DynamoDB | Designed in Cyberpunk Style</p>
-    </footer>
+    <div class="container">
+        <!-- Навигационное меню -->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#" data-slide="1">Слайд 1: Введение</a></li>
+                <li><a href="#" data-slide="2">Слайд 2: Особенности</a></li>
+                <li><a href="#" data-slide="3">Слайд 3: Примеры использования</a></li>
+                <li><a href="#" data-slide="4">Слайд 4: Архитектура</a></li>
+                <li><a href="#" data-slide="5">Слайд 5: Заключение</a></li>
+            </ul>
+        </nav>
+
+        <!-- Основной контент -->
+        <main class="slides">
+            <section id="slide-1" class="slide active">
+                <h1>Введение в DynamoDB</h1>
+                <p>DynamoDB — это серверная NoSQL база данных, разработанная для высокой доступности и масштабируемости. Она полностью управляется AWS и подходит для широкого спектра приложений.</p>
+            </section>
+
+            <section id="slide-2" class="slide">
+                <h1>Особенности</h1>
+                <ul>
+                    <li>Автоматическое масштабирование</li>
+                    <li>Высокая доступность</li>
+                    <li>Низкая задержка</li>
+                    <li>Мульти-региональная репликация</li>
+                </ul>
+            </section>
+
+            <section id="slide-3" class="slide">
+                <h1>Примеры использования</h1>
+                <ul>
+                    <li>Рейтинговые таблицы для игр</li>
+                    <li>IoT-приложения</li>
+                    <li>Аналитика в реальном времени</li>
+                    <li>Корзины покупок в e-commerce</li>
+                </ul>
+            </section>
+
+            <section id="slide-4" class="slide">
+                <h1>Архитектура</h1>
+                <p>DynamoDB использует архитектуру на основе разделов с распределенной системой хранения, что обеспечивает низкую задержку и высокую производительность.</p>
+            </section>
+
+            <section id="slide-5" class="slide">
+                <h1>Заключение</h1>
+                <p>DynamoDB — мощное решение для современных приложений, которым требуется масштабируемость, надежность и скорость.</p>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
